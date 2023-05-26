@@ -7,9 +7,9 @@
     <title>Labirintas</title>
 </head>
 <body>
-    <main style="background-color: pink; width: 50%; margin-left: 25%; margin-top: 180px;">
-        <img src="./img/labirintas.jpg" alt="Labirintas" style="width: 50%;">
-        <div style="width: 50%; background-color: aqua;">
+    <main style="background-color: pink; width: 50%; margin-left: 25%; margin-top: 180px; display: inline-block">
+        <img src="./img/labirintas.jpg" alt="Labirintas" style="width: 50%; display: inline-block; float:left;">
+        <div style="background-color: aqua; width: 49.95%; display: inline-block; float: left;">
             <h1 >404</h1>
             <p>Looks like you are in a maze.</p>
             <p>Use the keyboard to control the ball to maze exit to return to the home, or</p>
@@ -45,5 +45,14 @@ margin-top: 10px;
 margin-bottom: 10px;
 margin-right: 10px;
 margin-left: 10px;
+
+Elementu atvaizdavimo budas:
+display: block; (95% default - elementai vertikaliai, kiekvienas savo eiluteje)
+display: inline; (<a>, <span>) elgiasi kaip tekstas 
+display: inline-block; (by default tikriausiai nera. Stengiasi buti vienoje eileje su kitais, bet jei netelpa, krenta i nauja eile ir nevirsija tevinio elemento plocio)
+
+Priverstinis elementu stumdymas:
+
+
 
 -->
