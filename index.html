@@ -7,12 +7,14 @@
     <title>Labirintas</title>
 </head>
 <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <!-- visi apskritai paveldes font-family -->
     <main style="width: 50%; margin-left: 25%; margin-top: 180px; display: inline-block">
-        <img src="./img/labirintas.jpg" alt="Labirintas" style="width: 35%; display: inline-block; float:left;">
-        <div style="background-color: aqua; width: 45%; display: inline-block; float: left; margin-left: 20px;">
-            <h1 style="font-size: 170px; margin:0; margin-left: 20%; color: green; margin-top: 0;">404</h1>
-            <p style="font-size: 20px;">Looks like you are in a maze.</p>
-            <p style="font-size: 20px; color: grey;">Use the keyboard to control the ball to maze exit to return to the home, or</p>
+        <img src="./img/labirintas.jpg" alt="Labirintas" style="width: 35%; float:left;">
+        <div style="width: 45%; display: inline-block; margin-left: 20px; font-size: 20px;"> 
+            <!-- font-size paveldes is tevo h1, p ir a (is senelio overidin'a tevas!) -->
+            <h1 style="font-size: 170px; margin: 0; color: green; margin-top: 20px;">404</h1>
+            <p style="color: green; margin-top: 0;">Looks like you are in a maze.</p>
+            <p style="color: grey;">Use the keyboard to control the ball to maze exit to return to the home, or</p>
             <a href="#" style="display: inline-block; background-color: green; color: white; text-align: center; padding: 20px; padding-left: 30px; padding-right: 30px; text-decoration: none;">Go back Home</a>
         </div>
         </div>
@@ -22,11 +24,16 @@
 
 <!--
 
+html - inline-block ir float, paliekame tik float, nes atitinka savybes. 
+
     CSS!
 
 1) <div></div>
 2) <div style=""></div>
 3) <div> stly="savybe: reiksme; savybe2: reiksme2;"</div>
+
+TAISYKLE:
+Tekstines savybes gali buti paveldetos is teviniu elementu i vaikinius elementus!
 
 Srifto savybes:
 
@@ -41,18 +48,32 @@ font-weight: bold;
 font-weight: normal;
 text-decoration: underline;
 text-decoration: none; (be pabraukimo)
+
 color: red; (teksto spalva)
 background-color: blue; (elemento fono spalva)
+
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify; (not fun!)
 
 Fizinis dydis:
 width: 100%; (dazn. max reiksme)
 
 Elementu atsistumimas:f
-margin: 20px; (visomis kryptimis (ratu))
+margin: 20px; (visomis kryptimis (ratu) po 20px)
 margin-top: 10px;
 margin-bottom: 10px;
 margin-right: 10px;
 margin-left: 10px;
+
+Elementu issiputimas: (atstumas nuo turinio iki jo krasto)
+padding: 20px; (visomis kryptimis (ratu) po 20px)
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+
 
 Elementu atvaizdavimo budas:
 display: block; (95% default - elementai vertikaliai, kiekvienas savo eiluteje)
