@@ -19,8 +19,7 @@ Design: [Labirintas] (https://github.com/Lisbon-TV/45-grupe-labirintas3/blob/mas
 
 ## 🎯 Project features/goals
 
--   Github pages
--   FontAwesome icons
+-   layout;
 
 ## 🧰 Getting Started
 
